@@ -1,0 +1,1280 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - hey there
+      - good morning
+      - good evening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - good
+      - ok
+      - okay
+      - goodbye
+      - ok go now
+      - have a nice day
+      - bye bye
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - who are you?
+      - what are you
+      - how can you help me
+      - what is your work
+
+  - intent: about_dayalbagh
+    examples: |
+      - What is dayalbagh
+      - what do you know about dayalbagh
+      - can you tell me about dayalbagh
+      - dayalbagh
+      - I want to know about dayalbagh
+      - describe dayalbagh
+      - tell me about dayalbagh
+
+  - intent: history_of_dayalbagh
+    examples: |
+      - how dayalbagh started
+      - what is the history of dayalbagh
+      - tell me about the history of dayalbagh
+      - origin of dayalbagh
+      - what is the history of dayalbagh
+      - how dayalbagh was founded
+      - when dayalbagh is established
+
+  - intent: founder_of_dayalbagh
+    examples: |
+      - who founded dayalbagh
+      - who is the founder of dayalbagh
+      - creator of dayalbagh
+      - which sant satguru founded dayalbagh
+      - dayalbagh founder
+      - who established dayalbagh
+
+  - intent: facts_about_dayalbagh
+    examples: |
+      - tell me some facts about dayalbagh
+      - what are the facts about dayalbagh
+      - some interesting facts about dayalbagh
+      - dayalbagh facts
+      - facts about dayalbagh
+      - some facts of dayalbagh
+
+  - intent: purpose_of_dayalbagh
+    examples: |
+      - purpose of dayalbagh
+      - what issues do dayalbagh solve
+      - why dayalbagh is established
+      - what is the purpose behind founding dayalbagh
+      - tell me the cause of dayalbagh
+
+  - intent: sant_satguru_in_dayalbagh
+    examples: |
+      - who is the sant satguru of dayalbagh
+      - sant satguru of Ra Dha Sva Aa Mi faith
+      - who is the present sant satguru of Ra Dha Sva Aa Mi satsang dayalbagh
+      - name of the current sant satguru of Ra Dha Sva Aa Mi satsang dayalbagh
+      - waqt sant satguru
+
+  - intent: lifestyle_of_people_in_dayalbagh
+    examples: |
+      - what do people in dayalbagh do
+      - how people in dayalbagh live community life
+      - what is the purpose of people in dayalbagh
+      - what is dayalbagh way of life
+      - tell me about the role of people in dayalbagh
+      - what are the activities of people in dayalbagh
+      - lifestyle of people in dayalbagh
+      - what is the social life of people in dayalbagh
+      - routine of people in dayalbagh
+
+  - intent: devotees_of_dayalbagh
+    examples: |
+      - who are the devotees of dayalbagh
+      - who are the followers of dayalbagh
+      - followers of Ra Dha Sva Aa Mi faith
+      - tell me about the followers of Ra Dha Sva Aa Mi satsang dayalbagh
+      - devotees of dayalbagh satsang
+      - which type of people live in dayalbagh
+
+  - intent: how_to_be_a_part_of_dayalbagh
+    examples: |
+      - how to be a part of dayalbagh
+      - how to join dayalbagh
+      - can I be a part of dayalbagh
+      - how to become a member of dayalbagh community
+      - what is the process of becoming a devotee of dayalbagh
+      - I want to be a follower of dayalbagh satsang
+      - how to become a follower of Ra Dha Sva Aa Mi faith
+      - tell me the process to become a follower of Ra Dha Sva Aa Mi satsang dayalbagh
+      - what is the process of being satsangi in dayalbagh
+
+  - intent: dayalbagh_a_villege_or_a_town
+    examples: |
+      - is dayalbagh a villege
+      - can I say dayalbagh a town
+      - is dayalbagh a city
+      - is dayalbagh a village or a town
+      - dayalbagh a village or a city
+      - what should I call dayalbagh a villege or a town
+
+  - intent: environment_in_dayalbagh
+    examples: |
+      - how is the environment in dayalbagh
+      - how dayalbagh ensures the clean environment
+      - can we say that dayalbagh is environment friendly
+      - what stpes dayalbagh is taking to ensure a good and clean environment
+      - state of environment in dayalbagh
+      - tell me about the environment cleaning process of dayalbagh
+      - is there good environment in dayalbagh
+
+  - intent: how_dayalbagh_is_different_from_the_world
+    examples: |
+      - how dayalbagh is different from the world
+      - why dayalbagh is different from other communities
+      - what makes dayalbagh different from rest of the world
+      - can we say that dayalbagh is different from the world
+      - what qualities of dayalbagh makes it different from other part of the world
+      - what are the differences between dayalbagh and other communities
+      - what is different in dayalbagh
+
+  - intent: sprituality_in_dayalbagh
+    examples: |
+      - how is the sprituality in dayalbagh
+      - how dayalbagh is related to sprituality
+      - can we say that dayalbagh is spritual
+      - is dayalbagh a spritual community
+      - is there spritual environment in dayalbagh
+      - spritual life in dayalbagh
+      - how spritual dayalbagh people are
+
+  - intent: dayalbagh_science_of_consciousness
+    examples: |
+      - tell me about dayalbagh science of consciousness
+      - what is dayalbagh science of consciousness
+      - explain the dayalbagh science of consciousness
+      - describe about science of consciousness in dayalbagh
+      - tell me about DSC
+      - DSC
+      - what is DSC
+
+  - intent: system_society_of_india
+    examples: |
+      - how dayalbagh is related to the system society of india
+      - what is system society of india
+      - explain the works of system society of india
+      - system society of india
+      - describe the system's approach dayalbagh is taking
+      - explain the system science in dayalbagh
+      - system's approach, system science and system society of india
+      - SSI
+      - tell me about SSI
+
+  - intent: housing_in_dayalbagh
+    examples: |
+      - how is the housing in dayalbagh
+      - how houses are made in dayalbagh
+      - why houses in dayalbagh built
+      - what is the housing arrangements in dayalbagh
+      - how dayalbagh ensures the housing to everyone
+      - how dayalbagh is providing the housing facilities
+      - does everyone in dayalbagh has their own house
+      - do dayalbagh has similar houses for everyone
+
+  - intent: why_to_live_in_dayalbagh
+    examples: |
+      - why to live in dayalbagh
+      - why dayalbagh is good for living
+      - what are the benefits of residing in dayalbagh
+      - what makes dayalbagh a good place to live
+      - why someone will live in dayalbagh
+      - what will I get by liveing in dayalbagh
+
+  - intent: management_in_dayalbagh
+    examples: |
+      - how is the management in dayalbagh
+      - how dayalbagh is managed
+      - what is the management system in dayalbagh
+      - who administers dayalbagh
+      - who is responsible for managing dayalbagh
+      - is dayalbagh a well managed community
+      - managing organizations in dayalbagh
+      - administration in dayalbagh
+      - who runs dayalbagh
+
+  - intent: satsang_sabha
+    examples: |
+      - what is satsang sabha
+      - what is the purpose of satsang sabha
+      - what is the role of satsang sabha in dayalbagh
+      - how important is satsang sabha in dayalbagh
+      - tell me about dayalbagh satsang sabha
+      - Ra Dha Sva Aa Mi satsang sabha
+      - explain the satsang sabha of dayalbagh
+      - RSS 
+      - RSS dayalbagh
+
+  - intent: shiromani_nagar_committee
+    examples: |
+      - what is shiromani nagar commitee
+      - what is the purpose of shiromani nagar commitee
+      - what is the role of shiromani nagar commitee in dayalbagh
+      - how important is shiromani nagar commitee in dayalbagh
+      - tell me about dayalbagh shiromani nagar commitee
+      - shiromani nagar commitee
+      - explain the shiromani nagar commitee of dayalbagh
+      - SNC
+      - SNC dayalbagh
+
+  - intent: governing_system_of_dayalbagh
+    examples: |
+      - how dayalbagh is governed
+      - what is the governing system of dayalbagh
+      - breakdown of dayalbagh governing system
+      - explain the governing system of dayalbagh
+      - who is ruling dayalbagh
+      - who is the ruler of dayalbagh
+      - governing head of dayalbagh
+
+  - intent: electricity_and_water_supply
+    examples: |
+      - what is the electricity and water supply system in dayalbagh
+      - how dayalbagh is providing the electricity and water
+      - how dayalbagh ensures the electricity and water supply
+      - how dayalbagh is providing the electricity and water to everyone
+      - how dayalbagh is managing the electricity and water supply
+      - electricity and water supply
+      - electicity supply
+      - water supply
+
+  - intent: legal_or_illegal_acitivites
+    examples: |
+      - does dayalbagh do illegal acitivites
+      - is dayalbagh doing illegal acitivites
+      - illegal activities in dayalbagh
+      - does dayalbagh steal the government properties
+      - is dayalbagh a certified place
+      - is dayalbagh varified by government
+      - ethics in dayalbagh
+      - ethical practices in dayalbagh
+
+  - intent: vision_of_dayalbagh
+    examples: |
+      - what is the vision of dayalbagh
+      - what is the vision of Ra Dha Sva Aa Mi faith
+      - what is the vision of Ra Dha Sva Aa Mi satsang dayalbagh
+      - tell me about the vision of dayalbagh community
+      - explain the dayalbagh's vision 2031
+      - describe the vision of satsang community at dayalbagh
+      - what are the visions that dayalbagh is trying to achieve till 2031
+      - vision 2031
+
+  - intent: model_to_feed_the_11_billion_population
+    examples: |
+      - what is the dayalbagh model to feed 11 billion people
+      - how dayalbagh is trying feed the 11 billion population
+      - explain the model to feed the 11 billion population
+      - tell me about the model to end hunger of 11 billion population
+      - is dayalbagh capable of feeding 11 billion people
+
+  - intent: technological_developments_in_dayalbagh
+    examples: |
+      - what are the technological developments in dayalbagh
+      - how dayalbagh is utilizing technology
+      - explain the major technological developments in dayalbagh
+      - tell me about the technological developments happening in dayalbagh
+      - why dayalbagh is adopting technology 
+      - how technology is helping dayalbagh to developing in various fields
+
+  - intent: dayalbagh_educational_institute
+    examples: |
+      - tell me about dayalbagh educational institute
+      - what is the purpose of dayalbagh institute
+      - dayalbagh educational institute
+      - DEI
+      - what is DEI
+      - Dayalbagh college
+      - university of dayalbagh
+
+  - intent: history_of_education
+    examples: |
+      - how education and started in dayalbagh
+      - history of education in dayalbagh
+      - how dayalbagh started providing education
+      - tell me the history of education in dayalbagh
+      - when education started in dayalbagh
+      - how education began in dayalbagh
+
+  - intent: education_model_and_policy
+    examples: |
+      - explain the education model of dayalbagh university
+      - what is the education policy of dayalbagh
+      - how dayalbagh is providing education
+      - tell me about the education model of dayalbagh
+      - what is the education system of dayalbagh
+      - education system in dayalbagh
+      - how the education model works in dayalbagh
+      - policies related to education in dayalbagh
+      - education model
+
+  - intent: educational_courses
+    examples: |
+      - what are the educational courses provided in dayalbagh
+      - tell me the courses provided by dayalbagh
+      - all educational courses
+      - courses by dayalbagh
+      - which courses are offered by DEI
+
+  - intent: peaceful_and_happiness
+    examples: |
+      - is dayalbagh a happy place
+      - is dayalbagh a peaceful place
+      - are the people in dayalbagh stay peacefully
+      - are the rasident of dayalbagh happy
+      - why dayalbagh is a happy and peaceful place
+
+  - intent: winter_camps
+    examples: |
+      - what are the winter camps in dayalbagh
+      - what is the purpose of winter camps in dayalbagh
+      - why DEI organise winter camp
+      - tell me about the winter camps organised by DEI
+      - what are the acitvities in winter camp
+      - winter camp
+
+  - intent: medical_camp
+    examples: |
+      - what are the medical camps in dayalbagh
+      - what is the purpose of medical camps in dayalbagh
+      - why DEI organise medical camp
+      - tell me about the medical camps organised by Dayalbagh Educational Institute
+      - what are the acitvities in medical camp
+      - what are the facilities available in dayalbagh medical camp
+
+  - intent: adopted_villeges
+    examples: |
+      - why dayalbagh adopted villeges around
+      - what dayalbagh is doing for the villeges around it
+      - how dayalbagh and DEI works for the villeges & backward people around
+      - which facilities dayalbagh provides to the backward areas around
+      - tell me the purpose of adopting villeges around dayalbagh
+      - how dayalbagh is helping the disadvantaged sections of society
+
+  - intent: history_of_medical_services_in_dayalbagh
+    examples: |
+      - how medical services started in dyaalbagh
+      - tell me about the history of medical facilities in dayalbagh
+      - when medical services started in dayalbagh
+      - how dayalbagh started providing medical facilities
+      - history of dayalbagh hospital
+      - history of hospitals in dayalbagh
+      - beginning of saran ashram hospital in dayalbagh
+
+  - intent: hospital_and_medical_services
+    examples: |
+      - how is the diease treatment process in dayalbagh
+      - tell me about hospitals in dayalbagh
+      - medical facilities in dayalbagh
+      - what are the medical services in dayalbagh
+      - how dayalbagh is treating the diseases
+      - diease treatment process in dayalbagh
+      - how dayalbagh ensures the good diease treatment to its people
+      - hospitals and medical facilities in dayalbagh
+      - medical services
+      - hospitals
+
+  - intent: satsang_in_dayalbagh
+    examples: |
+      - what is satsang in dayalbagh
+      - what is the purpose of satsang in dayalbagh
+      - why satsang is important in dayalbagh Ra Dha Sva Aa Mi faith
+      - tell me about the satsang in radhsawami faith
+      - what is the role of satsang in dayalbagh
+      - do the people in dayalbagh daily do satsang
+
+  - intent: dayalbagh_NSS
+    examples: |
+      - NSS in dayalbagh
+      - what is the purpose of NSS in dayalbagh
+      - do DEI students do NSS
+      - National Service Scheme
+      - what is NSS in DEI
+      - NSS
+      - activites by students in NSS DEI
+
+  - intent: women_self_help_group
+    examples: |
+      - what are the women self help groups in dayalbagh
+      - tell me about the self help groups of women in dayalbagh
+      - why dayalbagh women have self help groups
+      - self help groups for women
+      - women self help gropus
+
+  - intent: rapid_action_force
+    examples: |
+      - what is rapid action force in dayalbagh
+      - what is the purpose of rapid action force in dayalbagh
+      - why RAF is important in dayalbagh
+      - how young girls trained through RAF in dayalbagh
+      - what is the role of RAF in girls empowerment
+      - RAF dayalbagh
+      - rapid actions force
+
+  - intent: quantum_jugaad
+    examples: |
+      - what is quantum jugaad
+      - tell me the purpose of quantum jugaad
+      - why quantum jugaad is important in dayalbagh
+      - what are the activites done through quantum jugaad
+      - quantum jugaad dayalbagh
+      - when quantum jugaad is established in dayalbagh
+
+  - intent: reaching_to_the_last_the_lest_the_lowest_and_the_lost
+    examples: |
+      - how dayalbagh is reaching to the last the least the lowest and the lost
+      - what is the purpose of reaching to the last the least the lowest and the lost
+      - how dayalbagh is helping the lowest and the lost
+      - what is the purpose of reaching to last and the least
+
+  - intent: dayalbagh_gaushala
+    examples: |
+      - what is dayalbagh gaushala
+      - what do the dayalbagh gaushala do
+      - dayalbagh gaushala
+      - history of dayalbagh gaushala
+      - tell me the purpose of dayalbagh gaushala
+      - dairy and gaushala in dayalbagh
+
+  - intent: dayalbagh_dairy
+    examples: |
+      - describe the dairy process in dayalbagh
+      - how gaushala and dairy works in dayalbagh
+      - dayalbagh dariy
+      - what are the products of dayalbagh dairy
+      - how dayalbagh dairy is providing milk products
+      - gaushala and dairy in dayalbagh
+
+  - intent: history_of_dairy_and_gaushala
+    examples: |
+      - tell me the history of dayalbagh dairy and gaushala
+      - when dairy and gaushala started
+      - how dayalbagh dairy and gaushala started
+      - history of dairy and gaushala
+      - beginning of dayalbagh dairy and gaushala
+      - initial days of dairy and gaushala in dayalbagh
+
+  - intent: cattles_in_dayalbagh
+    examples: |
+      - what is the cattle rehabilitation system in dayalbagh
+      - explain the domestic animals treatment system in dayalbagh
+      - dayalbagh cattle rehabilitation center 
+      - how cattles are treated in cattle rehabilitation center 
+      - cattle rehabilitation center
+      - cattles in dayalbagh dairy
+      - tell me about cattles in gaushala
+
+  - intent: community_kitchen_bhandar_ghar
+    examples: |
+      - what is community kitchen in dayalbagh
+      - how community kitchen works in dayalbagh
+      - tell me about bhandar ghar
+      - dayal bhandar
+      - what do you know about bhandar ghar
+      - dayalbagh bhandar ghar
+      - how community kitchen providing food
+      - does bhander ghar provides free food to everyone
+      - history of bhandar ghar
+      - what are the meals avaiilable in dayal bhandar
+
+  # - intent: meals_in_bhandar_ghar
+  # examples: |
+  #     - how community kitchen works in dayalbagh
+  #     - how community kitchen is feeding the people in dayalbagh
+  #     - what do you know about bhandar ghar
+  #     - dayalbagh bhandar ghar
+  #     - how community kitchen providing food
+  #     - does bhander ghar provides free food to everyone
+  #     - history of bhandar ghar
+  #     - what are the meals avaiilable in dayal bhandar
+
+  - intent: physical_activites_in_dayalbagh
+    examples: |
+      - what are the physical activites in dayalbagh
+      - how dayalbagh is focusing on physical activites
+      - tell me about the different physical activites in dayalbagh
+      - physical activity practices in dayalbagh
+      - why physical activites are important in dayalbagh
+
+  - intent: advisory_committee_on_education
+    examples: |
+      - what is advisory committee on education
+      - what is the purpose of advisory committee on education
+      - how advisory committee on education helps in improving education
+      - who is the head of advisory committee on education
+      - advisory committee on education
+
+  - intent: distance_education_programmes
+    examples: |
+      - what are the distance education programmes in dayalbagh
+      - tell me about the distance education programmes in dayalbagh univesity
+      - how distance education programmes works in dayalbagh
+      - how dayalbagh ensures the education to people present at distance
+      - who is the head of distance education programmes in dayalbagh
+      - distance education programmes
+
+  - intent: consciousness_and_conscientiousness
+    examples: |
+      - what is consciousness
+      - purpose of consciousness education in dayalbagh
+      - what are the major researchs done in the field of consciousness and conscientiousness by dayalbagh
+      - how dayalbagh is working on consciousness
+      - consciousness studies in dayalbagh
+      - consciousness and conscientiousness
+
+  - intent: sewage_treatement_in_dayalbagh
+    examples: |
+      - how sewage is treated in dayalbagh
+      - what is the sewage treatment process in dayalbagh
+      - tell me how dayalbagh is treating the sewage
+      - sewage treatment in dayalbagh
+      - describe the process of sewage treatment in dayalbagh
+
+  - intent: yamuna_cleaning_process_in_dayalbagh
+    examples: |
+      - what is the dayalbagh's contribution in cleaning yamuna river
+      - how dayalbagh is cleaning yamuna river
+      - tell me about the yamuna cleaning process in dayalbagh
+      - why dayalbagh is cleaning river yamuna
+      - what are the benefits of yamuna river cleaning
+
+  - intent: renewable_energy
+    examples: |
+      - how dayalbagh is using renewable energy
+      - what are the renewable energy sources in dayalbagh
+      - is dayalbagh utilizing renewable energy
+      - explain how renewable energy is used in dayalbagh
+      - renewable energy in dayalbagh
+
+  - intent: earn_while_you_learn
+    examples: |
+      - what is earn while you learn scheme
+      - how earn while you learn scheme works
+      - why dayalbagh promotes earn while you learn
+      - tell me about the earn while you learn
+      - earn while you learn
+
+  - intent: collaboration_with_national_and_international_institutes
+    examples: |
+      - what are the national and international institutes dayalbagh is collaborating with
+      - how dayalbagh is collaborating with national and international institutes
+      - tell me about the collaborations of dayalbagh with national and international institutes
+      - national and international institutes collaborating with dayalbagh
+      - collaboration of dayalbagh university with other international universities
+
+  - intent: material_simplicity
+    examples: |
+      - why dayalbagh people are not attracted towards material wealth
+      - how dayalbagh people stay away from material wealth
+      - material simplicity in dayalbagh
+      - tell me about the simplicity of dayalbagh people
+
+  - intent: fatherhood_of_god_and_brotherhood_of_man
+    examples: |
+      - what is the Fatherhood of God and Brotherhood of Man concept
+      - explain Fatherhood of God and Brotherhood of Man 
+      - why dayalbagh follows Fatherhood of God and Brotherhood of Man
+      - Fatherhood of God and Brotherhood of Man
+      - how dayalbagh maintains Fatherhood of God and Brotherhood of Man
+
+  - intent: waste_management_in_dayalbagh
+    examples: |
+      - how waste is managed in dayalbagh
+      - what is the waste management process in dayalbagh
+      - tell me how dayalbagh is managing the waste
+      - waste management in dayalbagh
+      - describe the process of waste management in dayalbagh
+
+  - intent: marriage_in_dayalbagh
+    examples: |
+      - what is the marriage process in dayalbagh
+      - how dayalbagh people marry
+      - tell me about the process of wedding in dayalbagh
+      - marriage in dayalbagh
+      - describe the wedding process in dayalbagh
+      - can we do marriage in dayalbagh
+      - is marriage allowed in dayalbagh
+      - how people of dayalbagh do marriage
+      - how weddings happen in dayalbagh
+      - why marriage happens at fields in db
+
+  - intent: dayalbagh_marriage_panchayat
+    examples: |
+      - what is dayalbagh marriage panchayat
+      - what is the purpose of dayalbagh marriage panchayat
+      - how dayalbagh marriage panchayat conducts marriages 
+      - tell me about the dayalbagh marriage panchayat
+      - who manages the marriage process in dayalbagh
+
+  - intent: vivah_sangam_dayalbagh
+    examples: |
+      - what is vivah sangam in dayalbagh
+      - what is the purpose of vivah sangam in dayalbagh
+      - how vivah sangam works in dayalbagh
+      - vivah sangam
+      - tell me about dayalbagh vivah sangam
+
+  - intent: carbon_emmissions_in_dayalbagh
+    examples: |
+      - how dayalbagh is reducing carbon emmissions
+      - what is the carbon emmissions status in dayalbagh
+      - tell me about the carbon emmissions in dayalbagh
+      - carbon emmissions in dayalbagh
+      - emmission and reduction of carbon in dayalbagh
+
+  - intent: topological_graph_theory
+    examples: |
+      - what is topological graph theory
+      - what is the purpose of topological graph theory in dayalbagh
+      - how topological graph theory works
+      - topological graph theory
+      - tell me about the topological graph theory in relation to dayalbagh
+      - why dayalbagh follows the topological graph theory approach
+
+  - intent: system_theory_and_system_approach
+    examples: |
+      - what is system theory and system approach
+      - how dayalbagh follows the systems approach
+      - tell me about the system theory dayalbagh
+      - explain system's approach
+      - describe system theory
+      - system theory and system approach
+
+  - intent: camelids_in_dayalbagh
+    examples: |
+      - why camels are brought to dayalbagh
+      - how dayalbagh is treating camels 
+      - tell me about the camels in dayalbagh
+      - camelids in dayalbagh
+      - why camels are importand for dayalbagh
+
+  - intent: lifestyle_for_environment
+    examples: |
+      - what is the concept of lifestyle for environment
+      - how dayalbagh is following lifestyle for environment
+      - tell me about the lifestyle for environment in dayalbagh
+      - lifestyle for environment
+      - why dayalbagh follows lifestyle for environment
+      - what are the LiFE activities in dayalbagh
+      - what is LiFE
+      - LiFE model of daylalbagh
+
+  - intent: dayalbagh_nagar_panchayat
+    examples: |
+      - what is dayalbagh nagar panchayat
+      - why is there a nagar panchayat in dayalbagh
+      - how dayalbagh nagar panchayat works
+      - tell me about the dayalbagh nagar panchayat
+      - dayalbagh nagar panchayat
+
+  - intent: dayalbagh_language_school
+    examples: |
+      - what is dayalbagh language school
+      - why dayalbagh language school is established
+      - when dayalbagh language school started
+      - tell me about the dayalbagh language school
+      - dayalbagh language school
+
+  - intent: day_boarding_school
+    examples: |
+      - what is day boarding school
+      - why day boarding school is established
+      - when day boarding school started
+      - tell me about the day boarding school
+      - day boarding school
+
+  - intent: fair_price_shop_dayalbagh
+    examples: |
+      - what is fair price shop in dayalbagh
+      - why fair price shop is established
+      - when fair price shop started
+      - tell me about the fair price shop
+      - fair price shop
+
+  - intent: dayalbagh_medical_shop
+    examples: |
+      - what is dayalbagh medical shop
+      - why dayalbagh medical shop is established
+      - when dayalbagh medical shop started
+      - tell me about the dayalbagh medical shop
+      - dayalbagh medical shop
+      - does dayalbagh medical shop provides medicines at fair price
+
+  - intent: dayalbagh_stationary
+    examples: |
+      - what is dayalbagh stationary
+      - why dayalbagh stationary is established
+      - when dayalbagh stationary started
+      - tell me about the dayalbagh stationary
+      - dayalbagh stationary
+      - does dayalbagh stationary shop provides stationary at fair price
+
+  - intent: why_everyone_use_cycles_in_db
+    examples: |
+      - why everyone use cycles in dayalbagh
+      - why dayalbagh is a cycle city
+      - do dayalbagh people always use cycles
+      - what is the purpose of prefering cycles over other vehicles
+      - cycles in dayalbagh
+
+  - intent: tree_plantation
+    examples: |
+      - how dayalbagh is doing tree plantation
+      - what is the purpose of tree plantation in dayalbagh
+      - tell me how dayalbagh is planting trees
+      - tree plantation in dayalbagh
+      - describe the process of tree plantation in dayalbagh
+      - why dayalbagh is planting trees
+
+  - intent: ayurvedic_pharmesy_dayalbagh
+    examples: |
+      - what is ayurvedic pharmesy in dayalbagh
+      - why ayurvedic pharmesy is established
+      - when ayurvedic pharmesy started
+      - tell me the history ayurvedic pharmesy
+      - ayurvedic pharmesy
+
+  - intent: canteen_and_kiosks
+    examples: |
+      - what is canteen and kiosks in dayalbagh
+      - why kiosks and canteen are established
+      - when canteen and kiosks started in dayalbagh
+      - tell me about the canteen and kiosks
+      - canteen and kiosks
+      - does dayalbagh canteen and kiosks provides food at cheap price
+
+  - intent: dayalbagh_construction_department
+    examples: |
+      - what is dayalbagh construction department
+      - why dayalbagh construction department is established
+      - when dayalbagh construction department started
+      - tell me about the dayalbagh construction department
+      - dayalbagh construction department
+      - does dayalbagh construction department provides construction services at cheap price
+      - how constructions happen in dayalbagh
+
+  - intent: baikunth_dhaam
+    examples: |
+      - what is baikunth dhaam in dayalbagh
+      - tell me about the baikunth dhaam
+      - baikunth dhaam yamuna teere
+      - yamuna teere 
+      - what activites happen at yamuna teere
+
+  - intent: dayalbagh_rifle_range
+    examples: |
+      - what is dayalbagh rifle range
+      - why dayalbagh rifle club is established
+      - when dayalbagh rifle range started
+      - tell me about the dayalbagh rifle range
+      - dayalbagh rifle club
+      - how dayalbagh rifle range trains its memebers
+
+  - intent: mansarovar_garden_phalbagh
+    examples: |
+      - what is mansarovar garden phalbagh in dayalbagh
+      - dayalbagh mansarovar garden
+      - phalbagh
+      - tell me about the mansarovar garden phalbagh
+      - daylabagh phalbagh
+
+  - intent: sir_sahabji_maharaj_mills
+    examples: |
+      - what is sir sahabji maharaj mills in dayalbagh
+      - why sir sahabji maharaj mills is established
+      - when sir sahabji maharaj mills started
+      - tell me about the sir sahabji maharaj mills
+      - sir sahabji maharaj mills
+      - does sir sahabji maharaj mills provides clothes at cheap price
+      - how clothes are made in dayalbagh
+      - clothes manufacturing process in sir sahabji maharaj mills
+
+  - intent: dayalbagh_showroom
+    examples: |
+      - what is dayalbagh showroom
+      - how can I shop from dayalbagh showroom
+      - tell me about the dayalbagh showroom
+      - dayalbagh showroom
+      - does dayalbagh showroom provides products at cheap price
+      - what are the products available in dayalbagh showroom
+
+  - intent: dayalbagh_shoe_factory
+    examples: |
+      - what is dayalbagh shoe factory
+      - why dayalbagh shoe factory is established
+      - when dayalbagh shoe factory started
+      - tell me the history of dayalbagh shoe factory
+      - dayalbagh shoe factory
+      - does dayalbagh shoe factory provides shoes at cheap price
+      - how shoes are made in dayalbagh
+      - shoes manufacturing process in dayalbagh shoe factory
+
+  - intent: mahila_association
+    examples: |
+      - what is mahila association in dayalbagh
+      - why mahila association is established
+      - when mahila association started
+      - tell me about the mahila association
+      - mahila association
+      - does mahila association provides products at cheap price
+      - what are the products available in mahila association
+
+  - intent: water_sprinklers
+    examples: |
+      - why there are water sprinklers everywhere in dayalbagh
+      - how water sprinklers are helping dayalbagh in cleaning environment
+      - tell me about the water sprinklers in dayalbagh
+      - dayalbagh water sprinklers
+
+  - intent: dayalbagh_gymnasium
+    examples: |
+      - what is dayalbagh gymnasium
+      - why gymnasium is established in dayalbagh
+      - when dayalbagh gymnasium started
+      - tell me about the dayalbagh gym
+      - dayalbagh gymnasium
+      - what activities happen in dayalbagh gymnasium
+      - how can I join dayalbagh gymnasium
+
+  - intent: REI_inter_college
+    examples: |
+      - what is REI inter college
+      - why REI inter college is established
+      - when REI inter college started
+      - tell me the history of REI inter college
+      - REI inter college
+      - what courses are offered by REI inter college
+      - how can I get admission in REI inter college
+
+  - intent: prem_vidyalaya_college
+    examples: |
+      - what is prem vidyalaya college
+      - why prem vidyalaya college is established
+      - when prem vidyalaya college started
+      - tell me the history of prem vidyalaya college
+      - prem vidyalaya college
+      - what courses are offered by prem vidyalaya college
+      - how can I get admission in prem vidyalaya college
+
+  - intent: festivals_in_dayalbagh
+    examples: |
+      - what are the festivals celebrated in dayalbagh
+      - how dayalbagh celebrates festivals
+      - tell me about the festival celebrations in dayalbagh
+      - festivals in dayalbagh
+      - describe the festivals celebrated in dayalbagh
+      - which festivals do dayalbagh celebrate
+
+  - intent: bio_diversity_park
+    examples: |
+      - what is bio diversity park in dayalbagh
+      - why bio diversity parks is established
+      - who established bio diversity parks
+      - tell me the history of bio diversity park
+      - bio diversity park
+      - what are the plants grown in bio diversity park
+
+  - intent: international_seminar_hall
+    examples: |
+      - what is international seminar hall in dayalbagh
+      - why international seminar hall is established
+      - how dayalbagh conducts national and international seminars
+      - how world level talks and seminars happen in dayalbagh
+      - tell me about of international seminar hall
+      - international seminar hall
+      - what are the facilities available in international seminar hall
+
+  - intent: dayalbagh_is_self_dependent
+    examples: |
+      - Why dayalbagh is self dependent
+      - how dayalbagh became self reliant
+      - tell me about the self dependency of dayalbagh
+      - is dayalbagh self dependent
+      - how dayalbagh is self sufficient
+      - why dayalbagh is said to be self sustained
+      - is dayalbagh a self sustained colony
+
+  - intent: human_values_in_dayalbagh
+    examples: |
+      - what are the human values in dayalbagh
+      - how dayalbagh is promoting human values
+      - tell me about the human values in dayalbagh
+      - human values in dayalbagh
+      - do the people in dayalbagh have good human values
+      - is dayalbagh a place with good human values
+
+  - intent: global_villege
+    examples: |
+      - what do you mean by global villege
+      - what is the concept of global villege
+      - how dayalbagh is developing a global villege
+      - tell me about the global villege concept
+      - global villege
+      - how dayalbagh is working on global villege concept
+
+  - intent: women_empowerment
+    examples: |
+      - how dayalbag is empowering women
+      - what are the steps taken by dayalbagh to empower women
+      - tell me about the women empowerment in dayalbagh
+      - is dayalbagh has programs to empower women
+      - women empowerment
+      - empowering the women in dayalbagh
+
+  - intent: response_to_crisis
+    examples: |
+      - how dayalbagh responds to crisis
+      - what are the crisis response system in dayalbagh
+      - tell me about the crisis response system in dayalbagh
+      - crisis response system in dayalbagh
+      - how dayalbagh is dealing with crisis
+      - response to crisis
+      - what steps do dayalbagh take in crisis
+
+  - intent: earth_resistance
+    examples: |
+      - what is earth resistance
+      - why earth resistance is important
+      - how dayalbagh is working on earth resistance
+      - tell me about the earth resistance in dayalbagh
+      - earth resistance in dayalbagh
+      - how dayalbagh is monitoring resistance of the earth
+      - what are the steps taken by dayalbagh to monitor the earth resistance
+
+  - intent: end_poverty_in_dayalbagh
+    examples: |
+      - What are dayalbagh's take to End poverty
+      - how dayalbagh ensures the poverty reduction
+      - poverty reduction in dayalbagh
+      - what steps dayalbagh is taking to reduce poverty
+      - state of poverty in dayalbagh
+      - is dayalbagh a poverty free place
+      - are there poor people in dayalbagh
+
+  - intent: end_hunger_in_dayalbagh
+    examples: |
+      - What are dayalbagh's take to End Hunger
+      - how dayalbagh ensures the food security
+      - can we say that no one is hunger in dayalbagh
+      - what stpes dayalbagh is taking to ensure food availability
+      - state of hunger and food security in dayalbagh
+      - describe the state of hunger index in dayalbagh
+      - how is the food security in dayalbagh
+      - how dayalbagh is feeding individuals
+
+  - intent: good_health_and_well_being
+    examples: |
+      - How is dayalbagh improving Good Health And Well Being
+      - can we ensure good health by being in dayalbagh
+      - how dayalbagh ensures the good health of its citizens
+      - well being of people in dayalbagh
+      - what makes dayalbagh a place with good health and well being
+      - healthcare system in dayalbagh
+      - What do you think about the healthy environment in dayalbagh
+
+  - intent: quality_education_in_dayalbagh
+    examples: |
+      - What are the works done by dayalbagh for Quality Education
+      - how dayalbagh is ensuring that everyone gets quality education
+      - value based education
+      - what is the state of education in dayalbagh
+      - what is value based education 
+      - education in dayalbagh
+      - education
+      - which stps dayalbagh is taking to improve the quality of education
+      - how dayalbagh's education system is providing education to everyoneF
+
+  - intent: gender_equality
+    examples: |
+      - Which steps dayalbagh is taking to achieve Gender Equality
+      - how good is dayalbagh in gender equality
+      - describe how people with different genders treated in dayalbagh
+      - can we say that all the genders treated same in dayalbagh
+      - how dayalbagh is doing justice with poeple of different genders
+      - Are all genders equivalent in dayalbagh
+      - Gender equality in dayalbagh
+      - explain the gender equality in dayalbagh
+      - can I know about the gender discrimination in dayalbagh
+
+  - intent: water_quality_and_senitation
+    examples: |
+      - Water Quality & Senitation system in dayalbagh
+      - how is the water and senitaion treatment system in dayalbagh
+      - what steps dayalbagh is taking to improve water quality
+      - are the colonies in dayalbagh senitized properly
+      - do the people in dayalbagh get standared quality water
+      - are the individuals in dayalbagh getting clean drinking water
+      - explain the water quality improvement system in dayalbagh
+      - describe the senitation system in dayalbagh
+
+  - intent: affordable_and_clean_energy
+    examples: |
+      - How dayalbagh is providing Affordable and Clean Energy
+      - energy distribution system in dayalbagh
+      - does everyone in dayalbagh get clean energy
+      - how is the arrangements of energy distributed in dayalbagh
+      - tell me about the affordibility of energy people in dayalbagh getting
+      - how dayalbagh ensures the availability of affordable clean energy to individuals
+      - explain how dayalbagh is getting clean energy
+      - describe the affordibility of energy in dayalbagh
+
+  - intent: employment_and_economic_growth
+    examples: |
+      - State of Employment & Economic Growth in dayalbagh
+      - Which steps have been implemented in dayalbagh for economic growth
+      - How dayalbagh provides the emplyment oppurtunity to its people
+      - how individual in dayalbagh contributes in growing the economy 
+      - tell me how employability is developing in dayalbagh
+      - explain how daylagh ensures that everyone has a job
+      - can we say that no one is jobless in dayalbagh
+      - describe how economy is grwoing in dayalbagh
+
+  - intent: industry_innovation_and_infrastructure
+    examples: |
+      - How is the growth of Industry, Innovation & Infrastructure in dayalbagh
+      - which steps dayalbagh is taking for infrastructural development
+      - how good is dayalbagh in innovations
+      - what inventions dayalbagh supports and is responsible for
+      - which innovating technologies are being used in dayalbagh for infrastructural development
+      - explain industrial growth in dayalbagh
+      - how industries works for innovations in dayalbagh
+      - describe architectural development in dayalbagh
+      - innovations done by dayalbagh
+
+  - intent: reduce_inequalities
+    examples: |
+      - What is the dayalbagh's approach to Reduce Inequalities
+      - is everyone considered equal in dayalbagh
+      - is there any discrimination in dayalbagh
+      - how dayalbagh ensures no one is left behind
+      - can we say nobody is descriminated in dayalbagh
+      - explain what helped dayalbagh in reducing inequality
+      - describe the equality in dayalbagh
+      - is everyone equal in dayalbagh
+
+  - intent: sustainable_cities_and_communities
+    examples: |
+      - Tell me about Sustainable Cities & Communities in dayalbagh
+      - sustainibility in dayalbagh
+      - how communities work together to achieve sustainable growth
+      - explain is dayalbagh a sustainable city
+      - describe the sustainable development model of dayalbagh
+      - social system in dayalbagh
+      - how socaially active dayalbagh citizens are
+      - what social works dayalbagh does
+      - explain the society works in dayalbagh
+      - describe the social activities in dayalbagh
+      - community work in dayalbagh
+
+  - intent: sustainable_consumption_and_production
+    examples: |
+      - I want ot know about Sustainable Consuption & Production in dayalbagh
+      - process of production and consumption in dayalbagh
+      - explain the labour system in dayalbagh
+      - how manufacturing process takes place in dayalbagh
+      - how goods and services produced in dayalbagh
+      - describe consumption and production in dayalbagh
+
+  - intent: climate_action
+    examples: |
+      - Can you tell me how dayalbagh is working on Climate Action
+      - what actions dayalbagh is taking to improve the environment
+      - how is the atmosphere in dayalbagh
+      - describe the weather conditions in dayalbagh
+      - explain the climate improvements in dayalbagh
+      - climate actions in dayalbagh to achieve sustainable environment
+
+  - intent: life_below_water
+    examples: |
+      - Can I know about Life Below Water in dayalbagh
+      - tell me about how underwater life is growing in dayalbagh
+      - describe how is the life below water in dayalbagh
+      - what dayalbagh is doing to protect the life below water
+      - how dayalbagh's activities affect the lives below water
+
+  - intent: life_on_land
+    examples: |
+      - How is Life On Land in dayalbagh
+      - explain why dayalbagh is good for the lives on land
+      - what steps dayalbagh is taking to improve the life on land
+      - describe the state of people living on land in dayalbagh
+      - in which aspects life is good in dayalbagh
+
+  - intent: peace_justice_and_strong_institutions
+    examples: |
+      - What do you know about Peace, Justice & Strong Institutions in dayalbagh
+      - is everyone in dayalbagh has their individual rights
+      - do everyone gets justice in dayalbagh
+      - explain about right to privacy in dayalbagh
+      - describe how is freedom of expression in dayalbagh
+
+  - intent: partnerships_for_the_goal
+    examples: |
+      - How dayalbagh is working to get Partnerships For The Goal
+      - explain how dayalbagh is partnering with the world
+      - what steps dayalbagh is taking to collaborat with the other communities
+      - which confrences does dayalbagh organise to discuss the goals 
+      - how dayalbagh is collaborating to achieve the sustainable goals
+
+  - intent: sustainable_development_model_of_dayalbagh
+    examples: |
+      - how daylalbagh is achieving sustainablity
+      - sustainable development in daylalbagh
+      - sustainablity in dayalbagh
+      - how dayalbagh is achieving SDGs
+      - how dayalbagh is meeting sdg goals
+      - how daylalbagh is working to achieve sustainable development goals
+      - describe the sustainable development model of daylalbagh
+      - tell me about the model which is helping dayalbagh to achieve sustainability
+      - what steps dayalbagh is taking to achieve sustainable development goals
+      - what are the achievements of dayalbagh in sustainable development
+      - describe what dayalbagh has achieved in sustainable development
+      - are there any achievements of dayalbagh in sustainable development
+      - is sustainable development in dayalbagh upto the mark
+      - dayalbagh sustainable development model
+      - how dayalbagh is becoming sustainable
+      - tell me how dayalbagh community is achieving sustainability
+
+  - intent: air_quality
+    examples: |
+      - How dayalbagh is working to improve air quality
+      - explain the current state of air quality in dayalbagh
+      - how dayalbagh ensures the availability of clean air
+      - is dayalbagh good in terms of air quality
+      - do people in dayalbagh has the access to healthy air
+      - air quality
+
+  - intent: superhuman_scheme
+    examples: |
+      - What are the resons behind making superman in dayalbagh
+      - describe the superhuman scheme in dayalbagh 
+      - how dayalbagh is working on superman evolutionary scheme
+      - explain the supermen system in dayalbagh
+      - child improvement and superman scheme
+      - supermen scheme
+
+  - intent: sigma_six_QVA_model
+    examples: |
+      - What is the sigma six QVA model of dayalbagh
+      - explain the quality and value model of dayalbagh
+      - describe the sigma six model of dayalbagh
+      - which six qualities are included in the model
+      - how does the six quality and value model works
+      - Sigma Six Q-V-A model
+      - tell me about the sigma six model
+
+  - intent: agroecology_and_precision_farming
+    examples: |
+      - agroecology model of dayalbagh
+      - how dayalbagh is working on agricultural development
+      - explain how the people in dayalbagh do farming
+      - describe the agroecology and precision farming in dayalbagh
+      - why dayalbagh is doing farming
+      - what are the farm lands in dayalbagh
+      - process of farming in dayalbagh
+      - agriculture in dayalbagh
+
+  - intent: organic_farming
+    examples: |
+      - how dayalbagh is doing organic farming
+      - what is the organic farming process in dayalbagh
+      - does dayalbagh do organic farming
+      - is organic farming followed in dayalbagh
+      - which farming does dayalbagh do organic or inorganic
+      - explain organic farming process in dayalbagh
+
+  - intent: crop_diversification_in_fields
+    examples: |
+      - how dayalbagh is doing crop diversification
+      - what is the crop diversification process in dayalbagh
+      - what are the different types of crops grown in dayalbagh
+      - tell me about all types of crops in dayalbagh
+      - why dayalbagh grows crops of different types
+
+  - intent: irrigation_process
+    examples: |
+      - describe the irrigation process in dayalbagh fields
+      - how the fields in dayalbagh irrigated
+      - tell me the crop irrigation system in dayalbagh
+      - irrigation system 
+      - what is the process of irrigation in dayalbagh
+
+  - intent: culture_in_dayalbagh
+    examples: |
+      - Please tell me about culture of dayalbagh
+      - cultural life in dayalbagh
+      - how is the culture of people in dayalbagh
+      - is the culture of dayalbagh good
+      - describe the cultural activities in dayalbagh
+      - explain the dayalbagh's culture
+
+  - intent: scientific_research
+    examples: |
+      - How good is dayalbagh in scientific research
+      - what are the scientific researchs done by dayalbagh
+      - are ther any scientific research going on in dayalbagh
+      - how is state of the researchs in dayalbagh
+      - is dayalbagh good for doing scientific research
+
+  - intent: leadership_of_dayalbagh
+    examples: |
+      - In which sense dayalbagh is helping the world
+      - why we can say that dayalbagh is leading the world
+      - describe the leading role of dayalbagh in ahieving the sustainable development
+      - what are the qualities of dayalbagh that make it inspiration to the world
+      - how dayalbagh is guiding the world to achive sustainable development goals
+
+  - intent: security_system_in_dayalbagh
+    examples: |
+      - security system in daylalbagh
+      - how secure dayalbagh is
+      - describe how dayalbagh ensures the safty of its people
+      - is dayalbagh a secure place
+      - how does daylalbagh performing in security
+      - how strong is dayalbagh in terms of security
+
+  - intent: learnings_from_dayalbagh
+    examples: |
+      - what are the learnings of Ra Dha Sva Aa Mi faith
+      - what learnings does dayalbagh gives
+      - explain how one should take inspiration from daylalbagh model
+      - what are the teachings of dayalbagh
+      - how daylalbagh model is learning source for everyone
+
+  - intent: user_provides_unknown_input
+    examples: |
+      - tell me about
+      - what is this
+      - explain the model
+      - how this works
+      - what model do you use
+      - describe the above
+      - explain again
+      - not sure
+      - no use
+      - slkdfs

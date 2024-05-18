@@ -1,0 +1,651 @@
+version: "3.1"
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: about dayalbagh
+    steps:
+      - intent: about_dayalbagh
+      - action: utter_about_dayalbagh
+
+  - story: history_of_dayalbagh
+    steps:
+      - intent: history_of_dayalbagh
+      - action: utter_history_of_dayalbagh
+
+  - story: founder_of_dayalbagh
+    steps:
+      - intent: founder_of_dayalbagh
+      - action: utter_founder_of_dayalbagh
+
+  - story: purpose_of_dayalbagh
+    steps:
+      - intent: purpose_of_dayalbagh
+      - action: utter_purpose_of_dayalbagh
+
+  - story: sant_satguru_in_dayalbagh
+    steps:
+      - intent: sant_satguru_in_dayalbagh
+      - action: utter_sant_satguru_in_dayalbagh
+
+  - story: lifestyle_of_people_in_dayalbagh
+    steps:
+      - intent: lifestyle_of_people_in_dayalbagh
+      - action: utter_lifestyle_of_people_in_dayalbagh
+
+  - story: devotees_of_dayalbagh
+    steps:
+      - intent: devotees_of_dayalbagh
+      - action: utter_devotees_of_dayalbagh
+
+  - story: how_to_be_a_part_of_dayalbagh
+    steps:
+      - intent: how_to_be_a_part_of_dayalbagh
+      - action: utter_how_to_be_a_part_of_dayalbagh
+
+  - story: dayalbagh_a_villege_or_a_town
+    steps:
+      - intent: dayalbagh_a_villege_or_a_town
+      - action: utter_dayalbagh_a_villege_or_a_town
+
+  - story: environment_in_dayalbagh
+    steps:
+      - intent: environment_in_dayalbagh
+      - action: utter_environment_in_dayalbagh
+
+  - story: how_dayalbagh_is_different_from_the_world
+    steps:
+      - intent: how_dayalbagh_is_different_from_the_world
+      - action: utter_how_dayalbagh_is_different_from_the_world
+
+  - story: sprituality_in_dayalbagh
+    steps:
+      - intent: sprituality_in_dayalbagh
+      - action: utter_sprituality_in_dayalbagh
+
+  - story: dayalbagh_science_of_consciousness
+    steps:
+      - intent: dayalbagh_science_of_consciousness
+      - action: utter_dayalbagh_science_of_consciousness
+
+  - story: system_society_of_india
+    steps:
+      - intent: system_society_of_india
+      - action: utter_system_society_of_india
+
+  - story: housing_in_dayalbagh
+    steps:
+      - intent: housing_in_dayalbagh
+      - action: utter_housing_in_dayalbagh
+
+  - story: why_to_live_in_dayalbagh
+    steps:
+      - intent: why_to_live_in_dayalbagh
+      - action: utter_why_to_live_in_dayalbagh
+
+  - story: management_in_dayalbagh
+    steps:
+      - intent: management_in_dayalbagh
+      - action: utter_management_in_dayalbagh
+
+  - story: satsang_sabha
+    steps:
+      - intent: satsang_sabha
+      - action: utter_satsang_sabha
+
+  - story: shiromani_nagar_committee
+    steps:
+      - intent: shiromani_nagar_committee
+      - action: utter_shiromani_nagar_committee
+
+  - story: governing_system_of_dayalbagh
+    steps:
+      - intent: governing_system_of_dayalbagh
+      - action: utter_governing_system_of_dayalbagh
+
+  - story: electricity_and_water_supply
+    steps:
+      - intent: electricity_and_water_supply
+      - action: utter_electricity_and_water_supply
+
+  - story: legal_or_illegal_acitivites
+    steps:
+      - intent: legal_or_illegal_acitivites
+      - action: utter_legal_or_illegal_acitivites
+
+  - story: vision_of_dayalbagh
+    steps:
+      - intent: vision_of_dayalbagh
+      - action: utter_vision_of_dayalbagh
+
+  - story: model_to_feed_the_11_billion_population
+    steps:
+      - intent: model_to_feed_the_11_billion_population
+      - action: utter_model_to_feed_the_11_billion_populationh
+
+  - story: technological_developments_in_dayalbagh
+    steps:
+      - intent: technological_developments_in_dayalbagh
+      - action: utter_technological_developments_in_dayalbagh
+
+  - story: dayalbagh_educational_institute
+    steps:
+      - intent: dayalbagh_educational_institute
+      - action: utter_dayalbagh_educational_institute
+
+  - story: history_of_education
+    steps:
+      - intent: history_of_education
+      - action: utter_history_of_education
+
+  - story: education_model_and_policy
+    steps:
+      - intent: education_model_and_policy
+      - action: utter_education_model_and_policy
+
+  - story: peaceful_and_happiness
+    steps:
+      - intent: peaceful_and_happiness
+      - action: utter_peaceful_and_happiness
+
+  - story: winter_camps
+    steps:
+      - intent: winter_camps
+      - action: utter_winter_camps
+
+  - story: medical_camp
+    steps:
+      - intent: medical_camp
+      - action: utter_medical_camp
+
+  - story: adopted_villeges
+    steps:
+      - intent: adopted_villeges
+      - action: utter_adopted_villeges
+
+  - story: history_of_medical_services_in_dayalbagh
+    steps:
+      - intent: history_of_medical_services_in_dayalbagh
+      - action: utter_history_of_medical_services_in_dayalbagh
+
+  - story: hospital_and_medical_services
+    steps:
+      - intent: hospital_and_medical_services
+      - action: utter_hospital_and_medical_services
+
+  - story: satsang_in_dayalbagh
+    steps:
+      - intent: satsang_in_dayalbagh
+      - action: utter_satsang_in_dayalbagh
+
+  - story: dayalbagh_NSS
+    steps:
+      - intent: dayalbagh_NSS
+      - action: utter_dayalbagh_NSS
+
+  - story: women_self_help_group
+    steps:
+      - intent: women_self_help_group
+      - action: utter_women_self_help_group
+
+  - story: rapid_action_force
+    steps:
+      - intent: rapid_action_force
+      - action: utter_rapid_action_force
+
+  - story: quantum_jugaad
+    steps:
+      - intent: quantum_jugaad
+      - action: utter_quantum_jugaad
+
+  - story: reaching_to_the_last_the_lest_the_lowest_and_the_lost
+    steps:
+      - intent: reaching_to_the_last_the_lest_the_lowest_and_the_lost
+      - action: utter_reaching_to_the_last_the_lest_the_lowest_and_the_lost
+
+  - story: dayalbagh_gaushala
+    steps:
+      - intent: dayalbagh_gaushala
+      - action: utter_dayalbagh_gaushala
+
+  - story: dayalbagh_dairy
+    steps:
+      - intent: dayalbagh_dairy
+      - action: utter_dayalbagh_dairy
+
+  - story: history_of_dairy_and_gaushala
+    steps:
+      - intent: history_of_dairy_and_gaushala
+      - action: utter_history_of_dairy_and_gaushala
+
+  - story: cattles_in_dayalbagh
+    steps:
+      - intent: cattles_in_dayalbagh
+      - action: utter_cattles_in_dayalbagh
+
+  - story: community_kitchen_bhandar_ghar
+    steps:
+      - intent: community_kitchen_bhandar_ghar
+      - action: utter_community_kitchen_bhandar_ghar
+
+  - story: physical_activites_in_dayalbagh
+    steps:
+      - intent: physical_activites_in_dayalbagh
+      - action: utter_physical_activites_in_dayalbagh
+
+  - story: educational_courses
+    steps:
+      - intent: educational_courses
+      - action: utter_educational_courses
+
+  - story: advisory_committee_on_education
+    steps:
+      - intent: advisory_committee_on_education
+      - action: utter_advisory_committee_on_education
+
+  - story: distance_education_programmes
+    steps:
+      - intent: distance_education_programmes
+      - action: utter_distance_education_programmes
+
+  - story: consciousness_and_conscientiousness
+    steps:
+      - intent: consciousness_and_conscientiousness
+      - action: utter_consciousness_and_conscientiousness
+
+  - story: sewage_treatement_in_dayalbagh
+    steps:
+      - intent: sewage_treatement_in_dayalbagh
+      - action: utter_sewage_treatement_in_dayalbagh
+
+  - story: yamuna_cleaning_process_in_dayalbagh
+    steps:
+      - intent: yamuna_cleaning_process_in_dayalbagh
+      - action: utter_yamuna_cleaning_process_in_dayalbagh
+
+  - story: renewable_energy
+    steps:
+      - intent: renewable_energy
+      - action: utter_renewable_energy
+
+  - story: earn_while_you_learn
+    steps:
+      - intent: earn_while_you_learn
+      - action: utter_earn_while_you_learn
+
+  - story: collaboration_with_national_and_international_institutes
+    steps:
+      - intent: collaboration_with_national_and_international_institutes
+      - action: utter_collaboration_with_national_and_international_institutes
+
+  - story: material_simplicity
+    steps:
+      - intent: material_simplicity
+      - action: utter_material_simplicity
+
+  - story: fatherhood_of_god_and_brotherhood_of_man
+    steps:
+      - intent: fatherhood_of_god_and_brotherhood_of_man
+      - action: utter_fatherhood_of_god_and_brotherhood_of_man
+
+  - story: waste_management_in_dayalbagh
+    steps:
+      - intent: waste_management_in_dayalbagh
+      - action: utter_waste_management_in_dayalbagh
+
+  - story: marriage_in_dayalbagh
+    steps:
+      - intent: marriage_in_dayalbagh
+      - action: utter_marriage_in_dayalbagh
+
+  - story: dayalbagh_marriage_panchayat
+    steps:
+      - intent: dayalbagh_marriage_panchayat
+      - action: utter_dayalbagh_marriage_panchayat
+
+  - story: vivah_sangam_dayalbagh
+    steps:
+      - intent: vivah_sangam_dayalbagh
+      - action: utter_vivah_sangam_dayalbagh
+
+  - story: carbon_emmissions_in_dayalbagh
+    steps:
+      - intent: carbon_emmissions_in_dayalbagh
+      - action: utter_carbon_emmissions_in_dayalbagh
+
+  - story: topological_graph_theory
+    steps:
+      - intent: topological_graph_theory
+      - action: utter_topological_graph_theory
+
+  - story: system_theory_and_system_approach
+    steps:
+      - intent: system_theory_and_system_approach
+      - action: utter_system_theory_and_system_approach
+
+  - story: camelids_in_dayalbagh
+    steps:
+      - intent: camelids_in_dayalbagh
+      - action: utter_camelids_in_dayalbagh
+
+  - story: lifestyle_for_environment
+    steps:
+      - intent: lifestyle_for_environment
+      - action: utter_lifestyle_for_environment
+
+  - story: dayalbagh_nagar_panchayat
+    steps:
+      - intent: dayalbagh_nagar_panchayat
+      - action: utter_dayalbagh_nagar_panchayat
+
+  - story: dayalbagh_language_school
+    steps:
+      - intent: dayalbagh_language_school
+      - action: utter_dayalbagh_language_school
+
+  - story: day_boarding_school
+    steps:
+      - intent: day_boarding_school
+      - action: utter_day_boarding_school
+
+  - story: fair_price_shop_dayalbagh
+    steps:
+      - intent: fair_price_shop_dayalbagh
+      - action: utter_fair_price_shop_dayalbagh
+
+  - story: dayalbagh_medical_shop
+    steps:
+      - intent: dayalbagh_medical_shop
+      - action: utter_dayalbagh_medical_shop
+
+  - story: dayalbagh_stationary
+    steps:
+      - intent: dayalbagh_stationary
+      - action: utter_dayalbagh_stationary
+
+  - story: why_everyone_use_cycles_in_db
+    steps:
+      - intent: why_everyone_use_cycles_in_db
+      - action: utter_why_everyone_use_cycles_in_db
+
+  - story: tree_plantation
+    steps:
+      - intent: tree_plantation
+      - action: utter_tree_plantation
+
+  - story: ayurvedic_pharmesy_dayalbagh
+    steps:
+      - intent: ayurvedic_pharmesy_dayalbagh
+      - action: utter_ayurvedic_pharmesy_dayalbagh
+
+  - story: canteen_and_kiosks
+    steps:
+      - intent: canteen_and_kiosks
+      - action: utter_canteen_and_kiosks
+
+  - story: dayalbagh_construction_department
+    steps:
+      - intent: dayalbagh_construction_department
+      - action: utter_dayalbagh_construction_department
+
+  - story: baikunth_dhaam
+    steps:
+      - intent: baikunth_dhaam
+      - action: utter_baikunth_dhaam
+
+  - story: dayalbagh_rifle_range
+    steps:
+      - intent: dayalbagh_rifle_range
+      - action: utter_dayalbagh_rifle_range
+
+  - story: mansarovar_garden_phalbagh
+    steps:
+      - intent: mansarovar_garden_phalbagh
+      - action: utter_mansarovar_garden_phalbagh
+
+  - story: sir_sahabji_maharaj_mills
+    steps:
+      - intent: sir_sahabji_maharaj_mills
+      - action: utter_sir_sahabji_maharaj_mills
+
+  - story: dayalbagh_showroom
+    steps:
+      - intent: dayalbagh_showroom
+      - action: utter_dayalbagh_showroom
+
+  - story: dayalbagh_shoe_factory
+    steps:
+      - intent: dayalbagh_shoe_factory
+      - action: utter_dayalbagh_shoe_factory
+
+  - story: mahila_association
+    steps:
+      - intent: mahila_association
+      - action: utter_mahila_association
+
+  - story: water_sprinklers
+    steps:
+      - intent: water_sprinklers
+      - action: utter_water_sprinklers
+
+  - story: dayalbagh_gymnasium
+    steps:
+      - intent: dayalbagh_gymnasium
+      - action: utter_dayalbagh_gymnasium
+
+  - story: REI_inter_college
+    steps:
+      - intent: REI_inter_college
+      - action: utter_REI_inter_college
+
+  - story: prem_vidyalaya_college
+    steps:
+      - intent: prem_vidyalaya_college
+      - action: utter_prem_vidyalaya_college
+
+  - story: festivals_in_dayalbagh
+    steps:
+      - intent: festivals_in_dayalbagh
+      - action: utter_festivals_in_dayalbagh
+
+  - story: bio_diversity_park
+    steps:
+      - intent: bio_diversity_park
+      - action: utter_bio_diversity_park
+
+  - story: international_seminar_hall
+    steps:
+      - intent: international_seminar_hall
+      - action: utter_international_seminar_hall
+
+  - story: dayalbagh_is_self_dependent
+    steps:
+      - intent: dayalbagh_is_self_dependent
+      - action: utter_dayalbagh_is_self_dependent
+
+  - story: human_values_in_dayalbagh
+    steps:
+      - intent: human_values_in_dayalbagh
+      - action: utter_human_values_in_dayalbagh
+
+  - story: global_villege
+    steps:
+      - intent: global_villege
+      - action: utter_global_villege
+
+  - story: women_empowerment
+    steps:
+      - intent: women_empowerment
+      - action: utter_women_empowerment
+
+  - story: response_to_crisis
+    steps:
+      - intent: response_to_crisis
+      - action: utter_response_to_crisis
+
+  - story: earth_resistance
+    steps:
+      - intent: earth_resistance
+      - action: utter_earth_resistance
+
+  - story: end_poverty_in_dayalbagh
+    steps:
+      - intent: end_poverty_in_dayalbagh
+      - action: utter_end_poverty_in_dayalbagh
+
+  - story: end_hunger_in_dayalbagh
+    steps:
+      - intent: end_hunger_in_dayalbagh
+      - action: utter_end_hunger_in_dayalbagh
+
+  - story: good_health_and_well_being
+    steps:
+      - intent: good_health_and_well_being
+      - action: utter_good_health_and_well_being
+
+  - story: quality_education_in_dayalbagh
+    steps:
+      - intent: quality_education_in_dayalbagh
+      - action: utter_quality_education_in_dayalbagh
+
+  - story: gender_equality
+    steps:
+      - intent: gender_equality
+      - action: utter_gender_equality
+
+  - story: water_quality_and_senitation
+    steps:
+      - intent: water_quality_and_senitation
+      - action: utter_water_quality_and_senitation
+
+  - story: affordable_and_clean_energy
+    steps:
+      - intent: affordable_and_clean_energy
+      - action: utter_affordable_and_clean_energy
+
+  - story: employment_and_economic_growth
+    steps:
+      - intent: employment_and_economic_growth
+      - action: utter_employment_and_economic_growth
+
+  - story: industry_innovation_and_infrastructure
+    steps:
+      - intent: industry_innovation_and_infrastructure
+      - action: utter_industry_innovation_and_infrastructure
+
+  - story: reduce_inequalities
+    steps:
+      - intent: reduce_inequalities
+      - action: utter_reduce_inequalities
+
+  - story: sustainable_cities_and_communities
+    steps:
+      - intent: sustainable_cities_and_communities
+      - action: utter_sustainable_cities_and_communities
+
+  - story: sustainable_consumption_and_production
+    steps:
+      - intent: sustainable_consumption_and_production
+      - action: utter_sustainable_consumption_and_production
+
+  - story: climate_action
+    steps:
+      - intent: climate_action
+      - action: utter_climate_action
+
+  - story: life_below_water
+    steps:
+      - intent: life_below_water
+      - action: utter_life_below_water
+
+  - story: life_on_land
+    steps:
+      - intent: life_on_land
+      - action: utter_life_on_land
+
+  - story: peace_justice_and_strong_institutions
+    steps:
+      - intent: peace_justice_and_strong_institutions
+      - action: utter_peace_justice_and_strong_institutions
+
+  - story: partnerships_for_the_goal
+    steps:
+      - intent: partnerships_for_the_goal
+      - action: utter_partnerships_for_the_goal
+
+  - story: sustainable_development_model_of_dayalbagh
+    steps:
+      - intent: sustainable_development_model_of_dayalbagh
+      - action: utter_sustainable_development_model_of_dayalbagh
+
+  - story: air_quality
+    steps:
+      - intent: air_quality
+      - action: utter_air_quality
+
+  - story: superhuman_scheme
+    steps:
+      - intent: superhuman_scheme
+      - action: utter_superhuman_scheme
+
+  - story: sigma_six_QVA_model
+    steps:
+      - intent: sigma_six_QVA_model
+      - action: utter_sigma_six_QVA_model
+
+  - story: agroecology_and_precision_farming
+    steps:
+      - intent: agroecology_and_precision_farming
+      - action: utter_agroecology_and_precision_farming
+
+  - story: organic_farming
+    steps:
+      - intent: organic_farming
+      - action: utter_organic_farming
+
+  - story: crop_diversification_in_fields
+    steps:
+      - intent: crop_diversification_in_fields
+      - action: utter_crop_diversification_in_fields
+
+  - story: irrigation_process
+    steps:
+      - intent: irrigation_process
+      - action: utter_irrigation_process
+
+  - story: culture_in_dayalbagh
+    steps:
+      - intent: culture_in_dayalbagh
+      - action: utter_culture_in_dayalbagh
+
+  - story: scientific_research
+    steps:
+      - intent: scientific_research
+      - action: utter_scientific_research
+
+  - story: leadership_of_dayalbagh
+    steps:
+      - intent: leadership_of_dayalbagh
+      - action: utter_leadership_of_dayalbagh
+
+  - story: security_system_in_dayalbagh
+    steps:
+      - intent: security_system_in_dayalbagh
+      - action: utter_security_system_in_dayalbagh
+
+  - story: learnings_from_dayalbagh
+    steps:
+      - intent: learnings_from_dayalbagh
+      - action: utter_learnings_from_dayalbagh
+
+  - story: User provides input that the model doesn't understand
+    steps:
+      - intent: user_provides_unknown_input
+      - action: utter_default

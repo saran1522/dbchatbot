@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Nunito+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --textColDark: white;
+  --textCol: rgb(5, 8, 63);
+  --textCol: rgb(2, 23, 59);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
+}
+
+
+.mainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--textCol);
+  background: url('bg1.png') no-repeat center center /cover;
+  height: 100vh;
+}
+
+.mainBox.dark {
+  background: rgb(17, 19, 20);
+  color: var(--textColDark);
+}
+
+.toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+.toggle img {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+.chatContainer {
+  height: 500px;
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.intro {
+  line-height: 2.2;
+  padding: 20px;
+  font-size: 1.15rem;
+}
+
+.botHeader {
+  position: relative;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+li {
+  width: fit-content;
+  padding: 0px 10px;
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.215);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.inputBox {
+  width: 100%;
+}
+
+.inputBox input {
+  min-height: 100%;
+  width: 100%;
+  padding: 20px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.155);
+  box-shadow: 1px 1px 15px rgba(31, 31, 31, 0.197);
+  outline: none;
+  color: var(--textCol);
+}
+
+.inputBox.dark input {
+  color: var(--textColDark);
+}
+
+.ask {
+  position: relative;
+  transform: translate(720px, -47px);
+}
+
+.askIcon {
+  height: 200px;
+}
+
+.output {
+  height: 80%;
+  overflow: auto;
+  font-size: 18px;
+  padding: 12px;
+  z-index: 3;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.output.dark {
+  background-color: rgb(32, 34, 35);
+}
+
+.conversationSet {
+  padding: 10px;
+  width: 800px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.conversationSet img {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+}
+
+.botName {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.answer {
+  overflow: hidden;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+  animation: typing 3s steps(40, end) 1;
+
+}
+
+::placeholder {
+  color: rgba(249, 247, 247, 0.484);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #455A60;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2f4045;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: rgb(113, 243, 195);
+  }
+
+  .mainBox {
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    background: rgb(228, 37, 37);
+  }
+}
